@@ -67,7 +67,8 @@ const NotePage = () => {
   return (
     <div className="note"> 
         <div className='note-header'>
-            <h3>
+            <h3>    
+                
                 <ArrowLeft onClick={handleSubmit} />
                 {/* <button onClick={deleteNote}>Delete</button> */}
             </h3>
